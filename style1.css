@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head{
+
+    background-image: url( image/bg-image-16.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    
+}
+.container .logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.container .menu ul{
+    list-style: none;
+    
+}
+.container .menu ul li{
+    display: inline-block;
+    
+    margin-right: 2rem;
+}
+.container .menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 19px;
+    transition: 0.6s;
+   }
+
+   .container .menu ul li a:hover{
+
+    color: #ff5050;
+
+
+   }
+   .container .icons i{
+padding: 9px;
+}
+
+.container .icons i:hover{
+    color:#ff5050;
+}
+.container .button button{
+    border: none;  
+    font-size: 18px;
+    border-radius: 12mm;
+    padding: 25px;
+   background-color: transparent;
+  border: solid black;
+  transition: 0.5s ease-in-out;
+  color: black;
+ 
+}
+
+.button button:hover{
+
+color: white;
+background-color: #ff33e4;
+border: none;
+
+}
+.text-box{
+     padding-top: 9rem;
+     margin-left: 4rem;
+     
+}
+.text-box span {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 3px;
+  color: rgb(134, 51, 134);
+
+}
+
+.text-box h1 {
+
+    font-size: 85px;
+    font-family:  monospace,sans-serif     ;
+    font-weight: bolder;
+
+}
+
+.text-box p{
+
+    font-family:  Arial, Helvetica, sans-serif;
+    color:  #666666    ;
+    font-size: 20px;
+}
+ button {
+    border: none;  
+    font-size: 18px;
+    border-radius: 12mm;
+    padding: 25px;
+    color: white;
+background-color:#ff5050;
+border: none;
+transition: 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: transparent;
+    border: #ff5050  solid ;
+    color: #ff5050;
+
+
+}
+.about {
+    display: flex;
+     padding-top: 8rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5rem;
+}
+.about .img img{
+ border-radius: 7px;
+ width: 100%;
+ height: 93%;
+}
+.about .text-boxe2 { 
+    padding-right: 9rem;
+    padding-top: 5rem;
+    
+}
+
+ .text-boxe2  .kk h4 {
+    color: rgb(138, 56, 138);
+    font-family: monospace;
+    font-size: 20px;
+
+}  .kk h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .kk p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #666666 ;
+    line-height: 1.5rem;
+    
+}
+ 
+.text-boxe3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+.text-boxe33 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+.text-boxe3 .t1 h1{
+
+font-family: monospace;
+font-size: 25px;
+color: black;
+line-height: 3rem;
+
+
+}
+.text-boxe33 .t1 h1{
+
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    line-height: 3rem;
+    }
+.text-boxe3 .t1 {
+ margin-right: 2rem;
+
+}
+.text-boxe33 .t4 {
+    margin-left: 2rem;
+}
+
+
+.text-boxe3 .t2 h1{
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    line-height: 3rem;
+}
+.text-boxe3 .t2 p{
+
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.text-boxe3 .t1 p{
+
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.text-boxe33 .t3 p{
+
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.text-boxe33 .t4 p{
+
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.text-boxe33 .t3 h1{
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    line-height: 3rem;
+
+}
+.text-boxe33 .t4 h1{
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    line-height: 3rem;
+
+}
+
+.client .cx{
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 3rem;
+}
+
+.client .cx h4{
+
+    font-family: monospace;
+    color: rgb(160, 52, 160);
+    font-size: 20PX;
+}
+.client .cx h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+.imgv img{
+
+  padding-top: 3.5rem;
+  width: 70%;
+  height: 95%;
+  margin-left: 13rem;
+
+}
+.third {
+   text-align: center;
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+.third button{
+
+    padding: 3rem;
+    position:  absolute;
+    bottom:  10rem;
+    
+    
+}
+
+.con2{
+    width: 90%;
+    margin: auto;
+}
+
+.brandbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+.brands .brandbox .brand {
+
+    position: relative;
+    width: 14%;
+    margin: 20px;
+    line-height: 1rem;
+    
+}
+.brands .brandbox .brand img {
+    width: 60%;
+    filter:  grayscale(100%)  ;
+    transition: 0.7s;
+   }
+   .brands .brandbox .brand img:hover {
+
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+   
+  }
+  
+    
+   
+   .perftext2 {
+
+    margin-top: 1rem;
+    margin-right: 6rem;
+   }
+   .perftext {
+  line-height: 4rem;
+
+
+   }
+.perftext h4{
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(138, 56, 138);
+
+
+}
+.perftext h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.perf {
+   
+    display: flex;
+    padding-top: 8rem;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-left: 5rem;
+}
+.perftext2  p {
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+.perf .perfi  img{
+    border-radius: 7px;
+    width: 100%;
+    height: 93%;
+}
+
+ ul li{
+
+
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 2rem;
+    list-style-type: circle;
+
+}
+
+.textboxes{
+    text-align: center;
+    padding-top: 3rem;
+}
+.textboxes h4{
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(138, 56, 138);
+}
+.textboxes h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textboxes p{
+
+    color: #666666 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.con4 {
+    width: 80%;
+    margin: auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    
+    
+  }
+  .portfolio .all-box .box {
+    width: 32%;
+    margin: 4px;
+    position: relative;
+    
+   
+  }
+  .portfolio .all-box .box img{
+    width: 100%;
+    border-radius: 8px;
+  
+  
+  }
+
+
+ 
+.two2 {
+margin-left: 37rem;}
+
+.contact {
+
+    display: flex;
+    padding-top: 8rem;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-left: 5rem;
+
+
+
+}
+
+.contact .contactimg img {
+    border-radius: 7px;
+    width: 85%;
+    height: 97;
+
+
+}
+.contact .contactext .textcontact{
+
+    padding-right: 9rem;
+    padding-top: 5rem;
+    
+
+}
+
+.contact .contactext .textcontact h4{
+  font-family: monospace;
+  color: rgb(138, 56, 138);
+  font-size: 15px;
+
+}
+
+.contact .contactext .textcontact h1{
+
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contact .contactext .textcontact label{
+
+ line-height: 2rem;
+ font-size: 18px;
+ color: #666666;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.contact .contactext .textcontact a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.4s ease-in-out;
+}
+.contact .contactext .textcontact a:hover{
+  
+    color: #ff5050;
+
+
+
+}
+
+.textcontact .forms {
+
+    line-height: 2rem;
+    
+}
+.textcontact .forms input{
+
+width: 100%;
+height: 70%;
+padding: 16px;
+border: #dbd7d7  solid 2px;
+border-radius: 7px; 
+}
+
+textarea {
+   width: 100%;
+   border: #dbd7d7  solid  2px; 
+   border-radius: 7px;
+  
+   
+
+}
+
+.textcontact .forms input:hover{
+
+   
+    border:#ff5050  solid 2px;
+   
+
+}
+.end {
+
+    width: 100%;
+    height: 70vh;
+    background-color: #ff5050 ;
+}
+.end .endtext h1{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3rem;
+}
+ .button2  {
+
+  padding-left: 37rem;
+  padding-top: 3rem;
+  
+
+ }
+ .button2 button {
+
+    border: solid white;
+ }
+
+.button2 button:hover{
+
+   
+    background-color: white;
+    color: #ff5050;
+}
+ .footer {
+
+    width: 100%;
+    height: 30vh;
+    background-color:  black;
+ }
+
+ .footend{
+    
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding-top: 5rem;
+     
+
+ }
+
+ .footend .footimg img {
+
+   max-width: 100%;
+   max-height: 60px;
+ }
+    
+
+
+ 
+
+
+ .footicon  i {
+
+    font-size: 20px;
+  padding: 1.5rem;
+  color: rgb(116, 111, 111);
+    margin-left: 1rem;
+    transition: 0.4s;
+  
+    }
+
+ .footicon  i:hover {
+     color:#ff5050 ;
+
+
+
+
+
+ }
+ .footicon span{
+     color: rgb(116, 111, 111);
+     font-family: monospace;
+     padding-top: 1.3rem;
+     margin-left:  6rem;
+     font-size: 15px;
+    
+ }
+
